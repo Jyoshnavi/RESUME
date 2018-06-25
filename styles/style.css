@@ -1,4 +1,6 @@
-.main{
+a{
+  text-decoration: none;
+  }.main{
   display:flex;
   flex-direction:row;
   justify-content:center;
@@ -29,4 +31,104 @@ img{
 h2
 {
   text-align: center;
+}
+@media  only screen and (min_width:320px) and (max_width:480px) {
+  a{
+    font-size: 240px;
+  }
+
+  .main{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .child1{
+    width:30%;
+    border:1px solid #000;
+    border-radius:15px;
+    box-shadow:3px 3px 3px #000;
+    padding:2%;
+    margin:2%;
+  }
+  .child2{
+    width:70%;
+    border:1px solid #000;
+    border-radius:15px;
+    box-shadow:3px 3px 3px #000;
+  }
+
+
+  @media  only screen and (min_width:481px) and (max_width:768px) {
+
+    .main{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+    }
+    .child1{
+      width:30%;
+      border:1px solid #000;
+      border-radius:15px;
+      box-shadow:3px 3px 3px #000;
+      padding:2%;
+      margin:2%;
+    }
+    .child2{
+      width:70%;
+      border:1px solid #000;
+      border-radius:15px;
+      box-shadow:3px 3px 3px #000;
+      padding:2%;
+      margin:2%;
+    }
+    @media  only screen and (min_width:481px) and (max_width:768px) {
+      *{
+        font-size: 50px;
+      }
+
+      .main{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+      }
+      .child1{
+        width:30%;
+        border:1px solid #000;
+        border-radius:15px;
+        box-shadow:3px 3px 3px #000;
+        padding:2%;
+        margin:2%;
+      }
+      .child2{
+        width:70%;
+        border:1px solid #000;
+        border-radius:15px;
+        box-shadow:3px 3px 3px #000;
+        padding:2%;
+        margin:2%;
+      }
+      @media  only screen and (min_width:769px) and (max_width:1024px) {
+
+        .main{
+          display:flex;
+          flex-direction:row;
+          justify-content:center;
+        }
+        .child1{
+          width:30%;
+          border:1px solid #000;
+          border-radius:15px;
+          box-shadow:3px 3px 3px #000;
+          padding:2%;
+          margin:2%;
+        }
+        .child2{
+          width:70%;
+          border:1px solid #000;
+          border-radius:15px;
+          box-shadow:3px 3px 3px #000;
+          padding:2%;
+          margin:2%;
+        }
+
 }

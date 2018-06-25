@@ -1,0 +1,25 @@
+{
+  "basics":{
+    "name":"saidurga",
+    "email":"saidurga.vinna@gmail.com",
+    "mobile":"+91-9009330867"
+  },
+  "education":[
+    {
+      "degree":"B-Tech",
+      "institute":"PSCMR",
+      "data":["2014-18","79%"]
+    },
+{
+  "degree":"Intermediate/Diploma",
+  "institue":"narayana junior college",
+  "data":["2013-15","83.2%"]
+},
+{
+  "degree":"s.s.c",
+  "institue":"narayana school",
+  "data":["2013","8.2"]
+  }  
+
+    ]
+}
